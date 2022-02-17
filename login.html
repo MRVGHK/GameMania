@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <title>Login</title>
+</head>
+<body>
+    <header id="header">
+        <a id="logo" href="index.html"><img src="img/logo game mania 1.png" alt="Logo GameMania"></a>
+        <nav id="nav">
+        <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+        <span id="hamburger"></span>
+        </button>
+        <ul id="menu" role="menu">
+            <li><a href="carreiras.html">Carreiras</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <div class="form-modal">
+    
+        <div class="form-toggle">
+            <button id="login-toggle" onclick="toggleLogin()">log in</button>
+            <button id="signup-toggle" onclick="toggleSignup()">registrar</button>
+        </div>
+    
+        <div id="login-form">
+            <form>
+                <input type="text" placeholder="Insira Usuário ou email"/>
+                <input type="password" placeholder="Insira senha"/>
+                <button type="button" class="btn login">login</button>
+                <p><a href="javascript:void(0)">Esqueci minha senha</a></p>
+                <hr/>
+            </form>
+        </div>
+    
+        <div id="signup-form">
+            <form>
+                <input type="email" placeholder="Insira seu E-mail"/>
+                <input type="text" placeholder="Escolha seu Usuário"/>
+                <input type="password" placeholder="Criar Senha"/>
+                <button type="button" class="btn signup">criar conta</button>
+                <p>Criando <strong>a conta</strong> você concorda com <a href="javascript:void(0)">termos de serviços</a>.</p>
+                <hr/>
+            </form>
+        </div>
+    
+    </div>
+    
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="#">Sobre nós</a></li>
+                        <li><a href="#">categorias</a></li>
+                        <li><a href="#">politica de privacidade</a></li>
+                        <li><a href="#">programa afiliados</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Ajuda</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">frete</a></li>
+                        <li><a href="#">Devolução</a></li>
+                        <li><a href="#">Status da compra</a></li>
+                        <li><a href="#">Opção de Pagamento</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>online shop</h4>
+                    <ul>
+                        <li><a href="#">CPU's</a></li>
+                        <li><a href="#">Completos</a></li>
+                        <li><a href="#">Acessórios</a></li>
+                        <li><a href="#">Monte o seu</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>nossas redes</h4>
+                    <div class="social-links">
+                        <a href=""><img src="img/facebook.svg" width="40px" alt=""></a>
+                        <a href=""><img src="img/instagram-2-1.svg" width="40px" alt=""></a>
+                        <a href=""><img src="img/orkut.svg" width="40px" alt=""></a>
+                        <a href=""><img src="img/twitter.svg" width="40px" alt=""></a>
+                        <a href=""><img src="img/YouTube.svg" width="40px" alt=""></a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
